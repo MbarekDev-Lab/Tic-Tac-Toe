@@ -1,0 +1,33 @@
+.game-container{
+    width: 255px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    color: white;
+    margin: auto;  
+}
+.title-container{
+    font-size: 50px;
+    background : rgb(0, 0, 0);
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+span{
+    color: yellowgreen;
+    margin: 20px;
+
+}
+.square-container{
+    width: 80px;
+    height: 80px;
+    background:rgb(255, 102, 0);
+    float: left;
+    margin: 2px;
+    font-size: 60px;
+}
+.square-container:hover{
+    
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
